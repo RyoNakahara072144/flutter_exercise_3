@@ -41,18 +41,18 @@ class _MyHomePageState extends State<MyHomePage> {
                 ElevatedButton(
                   onPressed: (){
                   },
-                  style: ButtonStyle(
-                      padding: MaterialStateProperty.all(const EdgeInsets.all(20)),
-                      shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)))
+                  style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.all(20),
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15))
                   ),
                   child: const Icon(Icons.remove),
                 ),
                 const SizedBox(width: 20,),
                 ElevatedButton(
                   onPressed: (){},
-                  style: ButtonStyle(
-                      padding: MaterialStateProperty.all(const EdgeInsets.all(20)),
-                      shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)))
+                  style: ElevatedButton.styleFrom(
+                      padding: const EdgeInsets.all(20),
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15))
                   ),
                   child: const Icon(Icons.add),
                 ),
