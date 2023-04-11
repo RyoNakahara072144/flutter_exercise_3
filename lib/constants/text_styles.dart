@@ -14,4 +14,9 @@ class AppTextStyles{
     color: AppColors.textColor,
     fontSize: 16 ,
   );
+
+  static const TextStyle headline = TextStyle(
+    color: AppColors.textColor,
+    fontSize: 30,
+  );
 }
