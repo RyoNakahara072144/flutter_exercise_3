@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   onPressed: (){
                   },
                   style: ElevatedButton.styleFrom(
-                      padding: const EdgeInsets.all(20),
+                      padding: const EdgeInsets.all(10),
                       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15))
                   ),
                   child: const Icon(Icons.remove),
@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ElevatedButton(
                   onPressed: (){},
                   style: ElevatedButton.styleFrom(
-                      padding: const EdgeInsets.all(20),
+                      padding: const EdgeInsets.all(10),
                       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15))
                   ),
                   child: const Icon(Icons.add),
