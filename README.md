@@ -1,16 +1,16 @@
-# flutter_exercise_3
+# Flutter基礎講座第３回練習問題
 
-Flutter基礎講座練習問題part3
+## 問１
++ボタンに真ん中の数字を１増やす機能を実装してください。
 
-## Getting Started
+## 問２
+-ボタンに真ん中の数字を１減らす機能を実装してください。
 
-This project is a starting point for a Flutter application.
+## 問３
++と-のボタンの間に新しく、数字を0に戻すリセットボタンを実装してくだい。
 
-A few resources to get you started if this is your first Flutter project:
+## 問４
+AppBarの左端のスイッチをタップすると、スイッチがON/OFFに切り替わるようにしてください。
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 問５
+スイッチがONの時に背景が白、OFFの時に背景が黒になるようにしてください。
